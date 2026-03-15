@@ -1,0 +1,1105 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+footer, header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+/* container1 = Home */
+
+.containersatu .background img{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.containersatu header{
+    display: flex;
+    align-items: center;
+}
+
+.containersatu header .logo h2{
+    font-family: 'Poppins', sans-serif;
+    color: #F7CAC9;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.containersatu header .logo p{
+    font-family: 'Poppins', sans-serif;
+    color: #92A8D1;
+    margin-top: -25px;
+    font-size: 12px;
+}
+
+.containersatu header .logo h2,
+.containersatu header .logo p{
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.containersatu .menu{
+    margin-left: 450px;
+}
+
+.containersatu .menu a{
+    font-family: 'Poppins', sans-serif;
+    color: #F7CAC9;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 14px;
+}
+
+.containersatu .menu a:hover{
+    color: #92A8D1;
+}
+
+.containersatu .welcome{
+    float: left;
+    width: 60%;
+}
+
+.containersatu .welcome h3{
+    font-family: 'Caveat', sans-serif;
+    color: #92A8D1;
+    margin-top: 130px;
+    font-size: 24px;
+}
+
+.containersatu .welcome h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+.containersatu .welcome h4{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -30px;
+}
+
+.containersatu .welcome h3,
+.containersatu .welcome h1,
+.containersatu .welcome h4{
+    margin-left: 70px;
+}
+
+.containersatu .icon a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    float: right;
+    margin-top: 200px;
+    margin-right: 70px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    color: #92A8D1;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.containersatu .sebuahkotak{
+    max-width: 1100px;
+    margin-left: 70px;
+    margin-top: 145px;
+}
+
+.menupilihan a{
+    background-color: #92A8D1;
+    color: black;
+    text-decoration: none;
+    padding: 12.5px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+}
+
+.menupilihan a.active{
+    background-color: white;
+}
+
+.menukotak{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+    margin-top: 12px;
+    height: 50px;
+}
+
+.kotak{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.kotak label{
+    font-family: 'Poppins', sans-serif;
+    color: #92A8D1;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.kotak .input{
+    display: flex;
+    margin-top: 5px;
+}
+
+.kotak .input i{
+    margin-right: 10px;
+}
+
+.kotak .input input{
+    display: flex;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -4px;
+}
+
+.kotaksearch{
+    margin-top: 13px;
+}
+
+.kotaksearch a{
+    font-family: 'Poppins', sans-serif;
+    padding: 34px 70px;
+    background-color: #92A8D1;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: -20px;
+    text-decoration: none;
+}
+
+/* container1 = Home DONE */
+
+/* container2 = About */
+
+.containerdua{
+    width: 100%;
+    /* height: 1000px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.kiridua,
+.kanandua{
+    position: relative;
+}
+
+.kiridua .kumpulangambar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 60%;
+    float: left;
+    margin-top: 100px;
+}
+
+.kiridua .gambarsatu,
+.kiridua .gambartiga{
+    position: relative;
+    width: 270px;
+    height: 370px;
+    color: white;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.kiridua .gambardua,
+.kiridua .gambarempat{
+    position: relative;
+    width: 270px;
+    height: 370px;
+    color: white;
+    margin-left: 20px;    
+}
+
+.kiridua .gambarsatu::after,
+.kiridua .gambardua::after,
+.kiridua .gambartiga::after,
+.kiridua .gambarempat::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.kiridua .gambarsatu::after{
+    background-color: rgba(255, 183, 0, 0.4);
+}
+
+.kiridua .gambardua::after{
+    background-color: rgba(0, 72, 255, 0.4);
+}
+
+.kiridua .gambartiga::after{
+    background-color: rgba(148, 146, 138, 0.4);
+}
+
+.kiridua .gambarempat::after{
+    background-color: rgba(47, 74, 54, 0.4);
+}
+
+.kiridua .gambarsatu img,
+.kiridua .gambardua img,
+.kiridua .gambartiga img,
+.kiridua .gambarempat img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.kiridua .icon{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #F7CAC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.kiridua .text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.kiridua .text h3{
+    font-weight: 500;
+}
+
+.kiridua .text h4{
+    font-weight: 400;
+    margin-bottom: -10px;
+}
+
+.kiridua .text h3,
+.kiridua .text h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+.kanandua .kumpulantext{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 35%;
+    float: right;
+    margin-top: 100px;
+}
+
+.kumpulantext h3{
+    font-family: 'Caveat', sans-serif;
+    color: #F7CAC9;
+    margin-top: 70px;
+    font-size: 24px;
+}
+
+.kumpulantext h2{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.kumpulantext h4{
+    font-family: 'Poppins', sans-serif;
+    color: #92A8D1;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.kumpulantext h3,
+.kumpulantext h2,
+.kumpulantext h4,
+.kumpulantext .menudua {
+    position: relative;
+    margin-left: -130px;
+    margin-right: 50px;
+    z-index: 10;
+}
+
+
+.kumpulantext .menudua{
+    margin-top: 20px;
+}
+
+.kumpulantext .menudua a{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: #F7CAC9;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* container2 = About DONE */
+
+/* container3 = Unit */
+
+.containertiga{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 249, 249);
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.titletiga{
+    text-align: center;
+    padding-top: 120px;
+}
+
+.titletiga h3{
+    font-family: 'Caveat', sans-serif;
+    color: #F7CAC9;
+    font-size: 24px;
+}
+
+.titletiga h2{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.sebuahkotaktiga{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.sebuahkotaktiga .kotaktiga{
+    position: relative;
+    float: left;
+    width: 270px;
+    height: 370px;
+    color: black;
+}
+
+.sebuahkotaktiga .kotaktiga img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.sebuahkotaktiga .kotaktiga h3{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #92A8D1;
+    color: black;
+    padding: 5px;
+    font-weight: 600;
+    z-index: 1;
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.sebuahkotaktiga .kotaktiga h3:hover{
+    background-color: #F7CAC9;
+    padding: 10px;
+    transition: background 2s ease;
+}
+
+.sebuahkotaktiga .kotaktiga h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #92A8D1;
+    color: black;
+    font-weight: 500;
+    z-index: 1;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.sebuahkotaktiga .kotaktiga h4:hover{
+    background-color: #F7CAC9;
+    border: 3px solid #e0e0e0;
+    transition: background 2s ease;
+}
+
+/* container3 = Unit DONE */
+
+/* container4 = Information */
+
+.containerempat{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.titleempat{
+    text-align: center;
+}
+
+.titleempat h3{
+    font-family: 'Caveat', sans-serif;
+    color: #F7CAC9;
+    font-size: 24px;
+}
+
+.titleempat h2{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.sebuahkotakempat{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.sebuahkotakempat .kotakempat{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    color: black;
+}
+
+.kotakempat .atas img{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.kotakempat .atas h3{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #92A8D1;
+    color: black;
+    padding: 5px;
+    font-weight: 600;
+    z-index: 1;
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.kotakempat .bawah{
+    position: absolute;
+    width: 300px;
+    height: 165px;
+    background-color: rgb(255, 249, 249);
+    padding: 10px;
+    z-index: 1;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 300px;
+}
+
+.kotakempat .bawah h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #92A8D1;
+    margin-top: 0;
+    margin-bottom: 5px;
+    position: relative;
+    padding-top: 15px;
+}
+
+.kotakempat .bawah h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    margin-top: -5px;
+}
+
+.kotakempat .bawah h3,
+.kotakempat .bawah h2,
+.kotakempat .bawah .sejajarsatu,
+.kotakempat .bawah .sejajardua{
+    padding-left: 15px;
+}
+
+.kotakempat .bawah .sejajarsatu{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: -35px;
+}
+
+.sejajarsatu i{
+    color: #F7CAC9;
+}
+
+.sejajarsatu h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F7CAC9;
+}
+
+.kotakempat .bawah .sejajardua{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: -15px;
+}
+
+.sejajardua i{
+    color: #92A8D1;
+}
+
+.sejajardua h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+/* container4 = Information DONE */
+
+/* container5 = About SEVENTEEN */
+
+.containerlima{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.containerlima .backgroundlima{
+    margin-top: 120px;
+}
+
+.containerlima .backgroundlima img{
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+}
+
+.containerlima .backgroundlima .iconlima a{
+    z-index: 2;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: -300px;
+    margin-left: 600px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #92A8D1;
+    background-color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.containerlima .kirilima{
+    position: relative;
+    width: 550px;
+    height: 650px;
+    margin-left: 50px;
+    margin-top: 90px;
+    z-index: 2;
+    border: rgb(255, 249, 249) solid 10px;
+}
+
+.containerlima .kirilima img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.containerlima .kananlima{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 50%;
+    float: right;
+    margin-top: -500px;
+}
+
+.containerlima .kananlima h3{
+    font-family: 'Caveat', sans-serif;
+    color: #F7CAC9;
+    margin-top: -10px;
+    font-size: 24px;
+}
+
+.containerlima .kananlima h2{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.containerlima .kananlima h4{
+    font-family: 'Poppins', sans-serif;
+    color: #92A8D1;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.containerlima .kananlima h3,
+.containerlima .kananlima h2,
+.containerlima .kananlima h4,
+.kananlima .menulima{
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.kananlima .menulima{
+    margin-top: 10px;
+}
+
+.kananlima .menulima a{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: #F7CAC9;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* container5 = About SEVENTEEN DONE */
+
+/* container6 = Quotes */
+
+.containerenam{
+    position: relative;
+    width: 100%;
+}
+
+.containerenam .backgroundenam{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.backgroundenam img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.backgroundenam::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(247, 202, 201, 0.6);
+}
+
+.titleenam{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+    z-index: 3;
+}
+
+.titleenam h3,
+.titleenam h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+.titleenam h3{
+    font-family: 'Caveat', sans-serif;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.titleenam h2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.sebuahkotakenam{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    gap: 30px;
+}
+
+.sebuahkotakenam .kotakenam{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kotakenam h4{
+    font-family: 'Poppins', sans-serif;
+    color: #92A8D1;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.kotakenam p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.gambarenam{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.gambarenam img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.leaders{
+    display: flex;
+    flex-direction: column;
+}
+
+.leaders h3{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.leaders h4{
+    font-family: 'Poppins', sans-serif;
+    color: #92A8D1;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* container6 = Quotes DONE */
+
+/* container7 = News */
+
+.containertujuh{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.containertujuh .titletujuh{
+    text-align: center;
+}
+
+.containertujuh .titletujuh h3{
+    font-family: 'Caveat', sans-serif;
+    color: #F7CAC9;
+    font-size: 24px;
+}
+
+.containertujuh .titletujuh h2{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.sebuahkotaktujuh{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+
+.kotaktujuh{
+    position: relative;
+    max-width: 350px;
+    width: 90%;
+}
+
+.kotaktujuh .gambartujuh{
+    position: relative;
+}
+
+.kotaktujuh .gambartujuh img{
+    width: 100%;
+    height: 350px;
+    z-index: 0;
+    object-fit: cover;
+    display: block;
+}
+
+.gambartujuh .tanggal{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 120px;
+    background-color: #F7CAC9;
+    color: black;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    z-index: 2;
+}
+
+.gambartujuh .tanggal .hari{
+    display: block;
+    font-size: 30px;
+    padding: 5px 10px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.gambartujuh .tanggal .bulantahun{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px;
+}
+
+.kotaktujuh .keterangan{
+    position: relative;
+    bottom: 0;
+    left: 10%;
+    background-color: rgb(255, 249, 249);
+    padding: 20px;
+    width: 250px;
+    z-index: 3;
+    margin-top: -50px;
+}
+
+.kotaktujuh .keterangan h4{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    margin-top: 0;
+    color: black;
+    margin-top: 10px;
+}
+
+.kotaktujuh .keterangan a{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #92A8D1;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/* container7 = NEWS DONE */
+
+/* BANNER */
+
+.banner{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.banner img{
+    width: 80%;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(60%);
+    margin: 100px 0px 0px 0px;
+}
+
+.banner h2,
+.banner h4,
+.banner .menubanner{
+    position: absolute;
+    width: 100%;
+    color: white;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner h2{
+    font-size: 24px;
+    margin-top: -190px;
+}
+
+.banner h4{
+    font-size: 16px;
+    margin-top: -150px;
+    font-weight: 500;
+}
+
+.banner .menubanner{
+    margin-top: -110px;
+}
+
+.banner .menubanner a{
+    display: inline-block;
+    padding: 20px;
+    background-color: #F7CAC9;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* BANNER DONE */
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    background-color: rgb(255, 249, 249);
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #e0e0e0;
+}
+
+.kotakfooter{
+    border-right: 1px solid #e0e0e0;
+}
+
+.kotakfooter,
+.kotakfooterlast{
+    width: 200px;
+    flex: 1;
+    margin: 20px;
+    padding-right: 40px;
+}
+
+.kotakfooter h3,
+.kotakfooterlast h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #F7CAC9;
+}
+
+.kotakfooter p,
+.kotakfooterlast p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.sosmed{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.sosmed a{
+    width: 40px;
+    height: 40px;
+    background-color: #92A8D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.kotakfooter ul{
+    list-style: none;
+    padding: 0;
+}
+
+.kotakfooter ul li{
+    margin-bottom: 12px;
+}
+
+.kotakfooter ul li a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.footerbawah{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #92A8D1;
+}
+
+/* FOOTER DONE */
